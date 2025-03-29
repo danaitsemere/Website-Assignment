@@ -1,5 +1,4 @@
-.form{
-    
+.form{ 
     width: 150%;
     padding: 10px 16px;
     margin:0 auto;
@@ -10,7 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    background-color: blueviolet;
+    
  }
  
 .combine{
@@ -18,13 +17,13 @@ body{
     gap: 180px;
     margin-left: 300px;
     margin-top: 7%;
-    border: solid 1px;
     border-radius: 15px;
     width: 55%;
+    background-color: white;
 }
 .form input{
     width:87%;
-    padding:15px 16px;
+    padding:10px 16px;
     border-radius: 5px;
     border: solid 1px;
 
@@ -47,9 +46,12 @@ a{text-decoration: none;
 }
 .icons{
     display: flex;
-    gap: 10%;
+    gap: 30%;
     border: none;
     text-align: center;
+    margin-left: 100px;
+    margin-top: 10%;
+    margin-bottom: -4px;
 
     
 
@@ -58,7 +60,36 @@ a{text-decoration: none;
    text-align: center;
    margin-top: 80%;
 }
-body{
-    background-image: https://www.shutterstock.com/image-photo/beautiful-dramatic-scenic-after-sunset-sky-2468437439;
+.line{
+    text-align: center;
+    margin-top: 15%;
 
+}
+.line :before {
+  content:"";
+  display: block;
+  height: 2px;
+  width:160px;
+  top:683px;
+  left:18%;
+  background-color: gray;
+  position: absolute;
+}
+.line::after
+{
+  content:"";
+  display: block;
+  height: 2px;
+  width:150px;
+  top:683px;
+  left:35%;
+  background-color: gray;
+  position: absolute;
+}
+.add{
+    text-align: center;
+    margin-top: 40%;
+    margin-left: -130%;
+    padding-bottom: -8;
+    
 }
