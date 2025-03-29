@@ -1,0 +1,64 @@
+.form{
+    
+    width: 150%;
+    padding: 10px 16px;
+    margin:0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url("https://img.freepik.com/free-vector/abstract-purple-wavy-patterned-background_53876-177390.jpg?t=st=1743185532~exp=1743189132~hmac=ca27a52512f3047daf4cd1e5f8e1a6156886774a3a077c257fc2b3b87607aed4&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-color: blueviolet;
+ }
+ 
+.combine{
+    display: flex;
+    gap: 180px;
+    margin-left: 300px;
+    margin-top: 7%;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 55%;
+}
+.form input{
+    width:87%;
+    padding:15px 16px;
+    border-radius: 5px;
+    border: solid 1px;
+
+}
+
+.container button{
+    border-radius: 14px;
+    background-color: purple;
+    color: white;
+    width: 94%;
+    margin: 0 auto;
+    padding: 20px 16px;
+    cursor: pointer;
+    border: none;
+}
+a{text-decoration: none;
+    color:black;
+
+
+}
+.icons{
+    display: flex;
+    gap: 10%;
+    border: none;
+    text-align: center;
+
+    
+
+}
+.icons link{
+   text-align: center;
+   margin-top: 80%;
+}
+body{
+    background-image: https://www.shutterstock.com/image-photo/beautiful-dramatic-scenic-after-sunset-sky-2468437439;
+
+}
